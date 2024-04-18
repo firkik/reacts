@@ -1,0 +1,57 @@
+.basic-game-container {
+  padding-top: 100px;
+  padding-bottom: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  background-image: url(../assets/cookie.png);
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  background-position: 95%;
+}
+
+.basic-game-text h2 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 76px;
+  text-transform: none;
+  margin-bottom: 50px;
+}
+
+.basic-game-text p {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+@media (max-width: 730px) {
+    .basic-game-container {
+        padding-left: 5%;
+    }
+
+    .basic-game-text h2 {
+        font-size: 64px;
+    }
+
+    .basic-game-text p {
+        font-size: 24px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .basic-game-text h2 {
+        font-size: 48px;
+    }
+
+    .basic-game-text p {
+        font-size: 16px;
+    }
+
+    .basic-game-container {
+        background-size: 300px 300px;
+    }
+}

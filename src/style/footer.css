@@ -1,0 +1,124 @@
+.footer {
+  width: 100%;
+  background-color: rgb(129, 95, 4, 0.7);
+  padding: 0;
+  margin: 0;
+  padding-left: 20%;
+  padding-top: 50px;
+  padding-right: 20%;
+  padding-bottom: 20px;
+}
+
+.href-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.href-container-01 {
+  display: flex;
+  gap: 20px;
+}
+
+.cookie-logo h2 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.cookie-logo h2::before {
+  content: "";
+  position: absolute;
+  background-image: url(../assets/cookie-min.png);
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.cookie-logo h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  width: 202px;
+  font-size: 20px;
+}
+
+.contact {
+  padding-top: 20px;
+}
+
+.contact h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.contact a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: none;
+}
+
+.href-container-02 {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.footer h6 {
+    width: 100%;
+    text-align: center;
+  padding-top: 100px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+@media (max-width: 1160px) {
+    .href-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .href-container-01 {
+        margin-bottom: 40px;
+    }
+
+    .href-container-02 {
+        gap: 100px
+    }
+}
+
+@media (max-width: 440px) {
+    .href-container-01, .href-container-02 {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+
+    .href-container-02 {
+        justify-content: start;
+        align-items: start;
+    }
+}

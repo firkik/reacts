@@ -1,0 +1,97 @@
+.upgrade-container {
+  display: flex;
+  align-items: center;
+  padding: 100px 10%;
+  justify-content: space-between;
+  padding-bottom: 200px;
+  background-image: url(../assets/cookie-4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+:root {
+  --width: 457px;
+  --height: 751px;
+}
+
+.upgrade-img {
+  width: var(--width);
+  height: var(--height);
+}
+
+.upgrade-img img {
+  width: var(--width);
+  height: var(--height);
+}
+
+.upgrade-text h2 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 76px;
+  text-transform: none;
+  margin-bottom: 50px;
+}
+
+.upgrade-text p {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+@media (max-width: 1440px) {
+  .upgrade-container {
+    padding: 100px 5%;
+  }
+
+  .upgrade-text h2 {
+    font-size: 64px;
+  }
+
+  .upgrade-text p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .upgrade-container {
+    padding: 100px 2%;
+  }
+}
+
+@media (max-width: 950px) {
+  .upgrade-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .upgrade-text {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .upgrade-container {
+    background-position: top;
+  }
+
+  .upgrade-img {
+    width: 307px;
+    height: 601px;
+  }
+
+  .upgrade-img img {
+    width: 307px;
+    height: 601px;
+  }
+
+  .upgrade-text h2 {
+    font-size: 48px;
+  }
+
+  .upgrade-text p {
+    font-size: 16px;
+  }
+}

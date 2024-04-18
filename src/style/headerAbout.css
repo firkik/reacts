@@ -1,0 +1,11 @@
+.last_str {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.last_str img {
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,47 @@
+.sqaurds_container {
+  padding-bottom: 200px;
+  background-image: url(../assets/brush.png);
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  background-position: 95%;
+  height: 100%;
+  padding-left: 10%;
+}
+
+.sqaurds_container h2 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 76px;
+  text-transform: none;
+  margin-bottom: 50px;
+}
+
+.sqaurds_container p {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  width: 40%;
+}
+
+@media (max-width: 1100px) {
+    .sqaurds_container p {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .sqaurds_container {
+        background-size: 300px 300px;
+    }
+
+    .sqaurds_container h2 {
+        font-size: 48px;
+    }
+
+    .sqaurds_container p {
+        font-size: 24px;
+        width: 100%;
+    }
+}
